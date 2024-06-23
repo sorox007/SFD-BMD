@@ -9,7 +9,7 @@ I am still working on this project and will try actively try to improve it but i
 
 
 ## Limitations
-1. Has been tested for 2 load points and 1 support point for sheer force diagram only.
+1. Has been tested for 1 load point and 2 support points for sheer force diagram only.
 2. The graph might not work for more than 2 load points (Trying to make the program better)
 
 **The Bending moment Diagram feature is still being built**
