@@ -10,7 +10,7 @@ load_dict = {}
 
 #total_length = int(input("Enter total length of beam: "))
 total_length = 10
-"""
+
 while nodes:
     ch = input("Do you want to add a node?: (Y/N)")
     if ch.casefold() == 'n':
@@ -29,10 +29,12 @@ while nodes:
             f = int(input("Enter force with direction: "))
 
             load_dict[x] = f
-"""
 
+"""
+dummy values to test
 load_dict ={5:-100}
 support_list =[[0,0],[10,0]]
+"""
 def reaction_support():
     load_moment = 0
     for load_distance in load_dict:
@@ -45,7 +47,6 @@ def reaction_support():
 
 
 reaction_support()
-support_list=[[0,50],[10,50]]
 #print(support_list)
 nodes = [support for support in support_list]
 nodes += list(load_dict.items())
